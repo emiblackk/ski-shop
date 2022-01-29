@@ -1,0 +1,153 @@
+h1 {
+  padding-top: 20px;
+
+  font-family: "Snell Roundhand";
+}
+
+h2, p {
+  font-family: "Courier New" !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar
+{
+  overflow: hidden;
+ background-color: #1a3c51 !important;
+ position: fixed; /* Set the navbar to fixed position */
+ top: 0; /* Position the navbar at the top of the page */
+ width: 100%; /* Full width */
+ z-index: 1;
+}
+
+.fullpicture-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  transition: transform .5s ease;
+}
+
+/* Container holding the image and the text */
+.fullpicture {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.fullpicture-img:hover {
+  transform: scale(.9);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  width: 100%;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-nav {
+  font-family: proxima-nova-extra-condensed,sans-serif !important;
+  font-size: 18px;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.navbar-brand {
+  font-size: 80px !important;
+  font: 36px/1 ltc-squareface,sans-serif;
+  margin: 5px 0;
+  padding: 0 40px;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+  fill: #fff;
+  border-right-style: solid;
+  border-width: thin;
+}
+
+.checkout-button{
+margin-left: auto;
+margin-right: 10px;
+}
+
+.nav-link-checkout{
+  border: none;
+  font-size: 18px;
+}
+.picture-content-big{
+  font-size: 30px;
+  font: 36px/1 ltc-squareface,sans-serif;
+  margin: 5px 0;
+  padding: 0 40px;
+}
+
+
+.picture-content-small{
+  font-size: 22px;
+  font: 400 18px/1 proxima-nova-extra-condensed,sans-serif;
+  letter-spacing: .5px;
+  margin: 10px;
+}
+
+div {
+  padding-top: 20px;
+  /* padding-right: 80px; */
+  padding-bottom: 20px;
+  /* padding-left: 80px; */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+  display: flex; /* so child elements can use flexbox stuff too! */
+}
+
+.product-image img {
+  max-width: 100%;
+}
+.product-info {
+    margin-top: auto;
+  }
